@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Skranji', cursive;
 }
 
 *, *::before, *::after {
@@ -20,6 +21,128 @@ body {
   margin: 0;
 }
 
-.verse1 {
+.verse-1 {
+  background-color: black;
+  color: black;
+  transform: rotate(-3deg);
+
+}
+
+.verse-1:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.verse-2 {
+  background-color: blue;
+  transform: rotate(+3deg);
+  text-align: right;
+}
+
+.verse-2:hover {
+  color: white;
+}
+
+.verse-3 {
+  background-color: lime;
+  transform: rotate(-5deg)
+}
+
+.verse-3:hover {
+  color: white;
+}
+
+.verse-4 {
+  background-color: orange;
+  transform: rotate(+3deg);
+  text-align: right;
+}
+
+.verse-4:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.verse-5 {
+  background-color: lime;
+  transform: rotate(-3deg);
+}
+
+.verse-5:hover {
+  color: white;
+}
+
+.verse-6 {
+  background-color: red;
+  transform: rotate(+3deg);
+  text-align: center;
+}
+
+.verse-6:hover {
+  color: white;
+}
+
+.verse-7 {
+  background-color: blue;
+  transform: rotate(-5deg)
+}
+
+.verse-7:hover {
+  color: white;
+}
+
+.verse-8 {
+background-color: yellow;
+transform: rotate(-3deg);
+}
+
+.verse-8:hover {
+  color: white;
+}
+
+.verse-9 {
+  background-color: orange;
+  text-align: right;
+}
+
+.verse-9:hover {
+  color: white;
+}
+
+.verse-10 {
+  background-color: red;
+  transform: rotate(-5deg)
+}
+
+.verse-10:hover {
+  color: white;
+}
+
+.verse-11 {
   background-color: purple;
+  transform: rotate(-3deg);
+  text-align: center;
+}
+
+.verse-11:hover {
+  color: white;
+}
+
+.verse-12 {
+  background-color: blue;
+  transform: rotate(+3deg);
+  text-align: center;
+}
+
+.verse-12:hover {
+  color: white;
+}
+
+.verse-13 {
+  background-color: lime;
+  transform: rotate(-5deg)
+}
+
+.verse-13:hover {
+  color: white;
 }
