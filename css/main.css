@@ -1,24 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: Skranji, cursive;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
 }
 
 .verse-1 {
@@ -26,7 +7,6 @@ body {
   color: black;
   transform: rotate(-3deg);
   font-family: "Germania One", cursive;
-
 }
 
 .verse-1:hover {
@@ -93,8 +73,8 @@ body {
 }
 
 .verse-8 {
-background-color: yellow;
-transform: rotate(-3deg);
+  background-color: yellow;
+  transform: rotate(-3deg);
 }
 
 .verse-8:hover {
